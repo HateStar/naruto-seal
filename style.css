@@ -94,6 +94,8 @@ body {
   position: relative;
   margin-bottom: 2rem;
   animation: fadeInUp 0.8s ease 0.2s both;
+  position: relative;
+  z-index: 100;
 }
 .search-wrapper {
   display: flex;
@@ -157,7 +159,7 @@ body {
   list-style: none;
   max-height: 320px;
   overflow-y: auto;
-  z-index: 100;
+  z-index: 1000;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 .suggestion-item {
@@ -235,6 +237,7 @@ body {
   border: 1px solid var(--border);
   overflow: hidden;
   animation: fadeInScale 0.5s ease;
+  z-index: 1;
 }
 .card-glow {
   position: absolute;
